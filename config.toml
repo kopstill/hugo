@@ -1,3 +1,21 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://kopever.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Lullaby'
+theme = 'paper'
+publishdir = '/Users/kopever/Develop/workspace/github/kopstill.github.io'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+
+[params]
+  twitter = 'kopstill'
+  github = 'kopstill'
+  instagram = 'kopstill'
