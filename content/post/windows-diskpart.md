@@ -8,7 +8,7 @@ aliases = ["diskpart"]
 > Diskpart 是 Windows 2000 或更高版本的 Microsoft 操作系统中包含的命令行磁盘分区实用程序，取代了其前身 Fdisk，我们日常安装 Windows 操作系统时经常需要用到  
 > 维基百科：<a href="https://en.wikipedia.org/wiki/Diskpart" target="_blank">Wiki Diskpart</a>  
 > 官方文档：<a href="https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/diskpart" target="_blank">中文</a> | <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart" target="_blank">英文</a>  
-> 进入 Windows 安装程序界面按 Shift+F10 唤起命令提示符窗口，输入 diskpart 回车进入分区工具  
+> 进入 Windows 安装程序界面按 Shift + F10 唤起命令提示符窗口，输入 diskpart 回车进入分区工具  
 > 所有命令均可通过 diskpart -h 获得帮助  
 
 ##### 常用命令

@@ -14,11 +14,11 @@ author = "kopever"
     <li>参考 GitHub 文档安装 shadowsocks-libev；</li>
     <li>安装 v2ray-plugin 插件；
         <ol>
-            <li>根据操作系统下载最新版<a href="https://github.com/shadowsocks/v2ray-plugin/releases" target="_blank">v2ray-plugin</a>插件程序包；</li>
-            <li>解压程序包并将解压出的可执行文件 v2ray-plugin_linux_*移动到/usr/local/bin 目录；</li>
+            <li>根据操作系统下载最新版 <a href="https://github.com/shadowsocks/v2ray-plugin/releases" target="_blank">v2ray-plugin</a> 插件程序包；</li>
+            <li>解压程序包并将解压出的可执行文件 v2ray-plugin 移动到 /usr/local/bin 目录；</li>
         </ol>
     </li>
-    <li>配置文件中 plugin 字段填入插件程序名 v2ray-plugin_linux_*；</li>
+    <li>配置文件中 plugin 字段填入插件程序名 v2ray-plugin，注意与上一步解压出的可执行文件名称保持一致；</li>
 </ol>
 
 ### 安装 BBR 加速

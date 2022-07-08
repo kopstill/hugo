@@ -4,13 +4,13 @@ date = "2019-06-28"
 author = "kopever"
 +++
 
-> shadowsocks 服务端基于 shadowsocks-libev+v2ray 搭建的客户端使用教程
+> shadowsocks 服务端基于 shadowsocks-libev + v2ray 搭建的客户端使用教程
 
 ### Windows
 
 <ol>
-    <li>下载<a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank">shadowsocks-windows</a>最新版客户端；</li>
-    <li>下载<a href="https://github.com/shadowsocks/v2ray-plugin/releases" target="_blank">shadowsocks-v2ray-plugin</a>最新版客户端插件；</li>
+    <li>下载 <a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank">shadowsocks-windows</a> 最新版客户端；</li>
+    <li>下载 <a href="https://github.com/shadowsocks/v2ray-plugin/releases" target="_blank">shadowsocks-v2ray-plugin</a> 最新版客户端插件；</li>
     <li>解压 shadowsocks-windows 客户端；</li>
     <li>解压 shadowsocks-v2ray-plugin 插件；</li>
     <li>将 v2ray-plugin_windows_*.exe 放到解压的 shadowsocks-windows 客户端的目录；</li>
@@ -22,7 +22,7 @@ author = "kopever"
 ### macOS
 
 <ol>
-    <li>下载<a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases" target="_blank">ShadowsocksX-NG</a>客户端；</li>
+    <li>下载 <a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases" target="_blank">ShadowsocksX-NG</a> 客户端；</li>
     <li>解压 ShadowsocksX-NG.zip；</li>
     <li>打开 ShadowsocksX-NG 并填入服务器、端口、密码、算法；</li>
     <li>插件选择 v2ray-plugin；</li>
@@ -41,8 +41,8 @@ author = "kopever"
 ### Android
 
 <ol>
-    <li>下载并安装<a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank">shadowsocks-android</a>最新版客户端；</li>
-    <li>下载并安装<a href="https://github.com/shadowsocks/v2ray-plugin-android/releases" target="_blank">v2ray-plugin-android</a>最新版客户端插件；</li>
+    <li>下载并安装 <a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank">shadowsocks-android</a> 最新版客户端；</li>
+    <li>下载并安装 <a href="https://github.com/shadowsocks/v2ray-plugin-android/releases" target="_blank">v2ray-plugin-android</a> 最新版客户端插件；</li>
     <li>打开 Shadowsocks 客户端并填入服务器、端口、密码、加密方式；</li>
     <li>插件选择 v2ray；</li>
 </ol>
