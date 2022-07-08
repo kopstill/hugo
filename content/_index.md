@@ -1,4 +1,3 @@
 +++
 author = "kopever"
-tags = ["index"]
 +++

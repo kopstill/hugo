@@ -1,8 +1,15 @@
 baseURL = 'https://kopever.com/'
 languageCode = 'en-us'
 title = 'Lullaby'
+author = "kopever"
 theme = 'paper'
+paginate = 10
 publishdir = '/Users/kopever/Develop/workspace/github/kopstill.github.io'
+
+[params]
+  twitter = 'kopstill'
+  github = 'kopstill'
+  instagram = 'kopstill'
 
 [markup]
   [markup.goldmark]
@@ -14,8 +21,4 @@ publishdir = '/Users/kopever/Develop/workspace/github/kopstill.github.io'
     identifier = "about"
     name = "About"
     url = "/about/"
-
-[params]
-  twitter = 'kopstill'
-  github = 'kopstill'
-  instagram = 'kopstill'
+    weight = 10
