@@ -4,7 +4,7 @@ date = "2019-07-12"
 author = "kopever"
 +++
 
-### 基于 shadowsocks-libev+v2ray 的服务端搭建教程  
+### 基于 shadowsocks-libev + v2ray 的服务端搭建教程  
 
 > shadowsocks 选择的是基于 C 语言的 <a href="https://github.com/shadowsocks/shadowsocks-libev" target="_blank">shadowsocks-libev</a>  
 > <a href="https://github.com/shadowsocks/v2ray-plugin" target="_blank">v2ray-plugin</a> 作为其插件  
