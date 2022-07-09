@@ -6,15 +6,16 @@ author = "kopever"
 
 ### 基于 shadowsocks-libev + v2ray 的服务端搭建教程  
 
-> shadowsocks 选择的是基于 C 语言的 <a href="https://github.com/shadowsocks/shadowsocks-libev" target="_blank">shadowsocks-libev</a>  
-> <a href="https://github.com/shadowsocks/v2ray-plugin" target="_blank">v2ray-plugin</a> 作为其插件  
-> <a href="https://github.com/shadowsocks/shadowsocks-libev/blob/master/README.md" target="_blank">Github 安装文档</a>
+shadowsocks 选择的是基于 C 语言的 <a href="https://github.com/shadowsocks/shadowsocks-libev" target="_blank">shadowsocks-libev</a>  
+<a href="https://github.com/shadowsocks/v2ray-plugin" target="_blank">v2ray-plugin</a> 作为其插件  
+
+### 安装说明
 
 <ol>
-    <li>参考 GitHub 文档安装 shadowsocks-libev；</li>
-    <li>安装 v2ray-plugin 插件；
+    <li>参考 <a href="https://github.com/shadowsocks/shadowsocks-libev/blob/master/README.md" target="_blank">Github 文档</a> 安装 shadowsocks-libev；</li>
+    <li>安装 <a href="https://github.com/shadowsocks/v2ray-plugin/releases" target="_blank">v2ray-plugin</a> 插件；
         <ol>
-            <li>根据操作系统下载最新版 <a href="https://github.com/shadowsocks/v2ray-plugin/releases" target="_blank">v2ray-plugin</a> 插件程序包；</li>
+            <li>根据操作系统下载最新版 v2ray-plugin 插件程序包；</li>
             <li>解压程序包并将解压出的可执行文件 v2ray-plugin 移动到 /usr/local/bin 目录；</li>
         </ol>
     </li>
