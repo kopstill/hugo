@@ -6,9 +6,9 @@ author = "kopever"
 
 ### 背景
 
-1. 很长一段时间 Docker Desktop 都无法在线更新，点击更新后图标一直转，但是始终无法更新；之前在 Docker 社区论坛看到有不少人都有遇到过这个问题，至今也没有好的解决方案，基本都是手动下载最新镜像重新安装；
+1. 很长一段时间以来 Docker Desktop 都无法在线更新，点击更新后图标一直转动，但始终无法更新成功；之前在 Docker 官方社区论坛看到有人讨论过这个问题，至今也没有好的解决方案，基本都是手动下载最新镜像重新安装；
     * Docker 官方社区论坛讨论：<a href="https://forums.docker.com/t/docker-desktop-wont-update-on-macos/114648" target="_blank">Docker Desktop won’t update on MacOS</a>
-2. Docker Desktop 资源消耗严重，com.docker.hyperkit 进程占用超 10G，虽然有虚拟内存，但看着实属膈应，CPU 有时也占用过多导致风扇狂转，也比较耗电；
+2. Docker Desktop 资源消耗严重，单 com.docker.hyperkit 进程内存占用超 10G，实际容器占用内存很少，CPU 有时也因占用过多而导致风扇狂转、机器发烫，也比较耗电；
 3. 可视化界面有点鸡肋，没有太大作用，而且是用内存大户 Electron 写的，天下苦 Electron 久矣。
 
 ### Colima 介绍
@@ -18,7 +18,7 @@ author = "kopever"
 
 ### Colima 安装问题
 
-具体安装方法在其 GitHub 主页，这里只列举安装过程可能会遇到的问题：
+具体安装方法在其 <a href="https://github.com/abiosoft/colima" target="_blank">GitHub</a> 主页，这里只列举安装过程可能会遇到的问题：
 
 1. brew 安装过程中可能会遇到某些依赖包下载不下来，可以多尝试几次，brew 不会全量重新下载，会缓存已下载的包，或者修改 brew 镜像源地址；
     * <a href="https://mirrors.ustc.edu.cn/help/brew.git.html" target="_blank">中科大镜像源</a>
