@@ -62,7 +62,7 @@ colima start --mount-type 9p
 **注意事项：**
 
 * <a href="https://github.com/lima-vm/lima/releases/tag/v0.10.0" target="_blank">Lima v0.10.0</a> 开始支持 9p，并计划在 v1.0 中将 9p 作为默认挂载方式；  
-* <a href="https://github.com/abiosoft/colima/releases/tag/v0.4.0" target="_blank">Colima v0.4.0</a> 开始支持 9p 及 --mount-type 参数，并可通过 colima status 查看当前挂载方式；
+* <a href="https://github.com/abiosoft/colima/releases/tag/v0.4.0" target="_blank">Colima v0.4.0</a> 开始支持 9p 及 mount-type 参数，并可通过 colima status 查看当前挂载方式；
 
 ``` shell
 colima status
