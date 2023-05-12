@@ -5,7 +5,7 @@ author = "kopever"
 theme = 'paper'
 paginate = 10
 publishdir = '/Users/kopever/Develop/workspace/github/kopstill.github.io'
-googleAnalytics = 'G-Z4G1M3RBRD'
+googleAnalytics = 'G-V1MG2WFWJQ'
 
 [params]
   twitter = 'kopstill'
